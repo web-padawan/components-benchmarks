@@ -5,5 +5,19 @@
     "@vaadin/vaadin-accordion": "1.0.1",
     "@vaadin/vaadin-details": "1.0.1",
     "@vaadin/vaadin-tabs": "3.0.5"
-  }
+  },
+  "scripts": {
+    "size": "size-limit",
+    "size:why": "size-limit --why"
+  },
+  "devDependencies": {
+    "@size-limit/preset-big-lib": "^4.0.1",
+    "size-limit": "^4.0.1"
+  },
+  "size-limit": [
+    {
+      "path": "vaadin/components/vaadin-app.js",
+      "limit": "50 Kb"
+    }
+  ]
 }

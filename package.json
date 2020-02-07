@@ -5,6 +5,7 @@
   "author": "Vaadin Ltd",
   "license": "Apache-2.0",
   "scripts": {
+    "size": "bash -c 'for dir in $(ls -1d */package.json | cut -d/ -f1); do (cd $dir && npm run size); done'",
     "postinstall": "bash -c 'for dir in $(ls -1d */package.json | cut -d/ -f1); do (cd $dir && npm install); done'"
   },
   "dependencies": {

@@ -5,10 +5,22 @@
   "author": "Vaadin Ltd",
   "license": "Apache-2.0",
   "scripts": {
-    "size": "bash -c 'for dir in $(ls -1d */package.json | cut -d/ -f1); do (cd $dir && npm run size); done'",
+    "size": "size-limit",
     "postinstall": "bash -c 'for dir in $(ls -1d */package.json | cut -d/ -f1); do (cd $dir && npm install); done'"
   },
   "dependencies": {
+    "@size-limit/preset-big-lib": "^4.0.1",
+    "size-limit": "^4.0.1",
     "tachometer": "^0.4.16"
-  }
+  },
+  "size-limit": [
+    {
+      "path": "lit-element/vaadin/components/vaadin-app.js",
+      "limit": "50 KB"
+    },
+    {
+      "path": "polymer/vaadin/components/vaadin-app.js",
+      "limit": "50 KB"
+    }
+  ]
 }

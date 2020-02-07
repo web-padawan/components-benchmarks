@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Polymer/tachometer/master/config.schema.json",
+  "timeout": 0,
+  "sampleSize": 100,
+  "benchmarks": [
+    {
+      "name": "lit-element",
+      "url": "lit-element/vaadin",
+      "measurement": "fcp",
+      "browser": {
+        "name": "chrome",
+        "headless": true
+      }
+    },
+    {
+      "name": "polymer",
+      "url": "polymer/vaadin",
+      "measurement": "fcp",
+      "browser": {
+        "name": "chrome",
+        "headless": true
+      }
+    }
+  ]
+}

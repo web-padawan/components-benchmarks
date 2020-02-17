@@ -1,9 +1,9 @@
 import { LitElement, html, css } from 'lit-element';
-import '@vaadin/vaadin-accordion/vaadin-accordion.js';
-import '@vaadin/vaadin-app-layout/vaadin-app-layout.js';
-import '@vaadin/vaadin-app-layout/vaadin-drawer-toggle.js';
-import '@vaadin/vaadin-details/vaadin-details.js';
-import '@vaadin/vaadin-tabs/vaadin-tabs.js';
+import '@vaadin/vaadin-accordion/src/vaadin-accordion.js';
+import '@vaadin/vaadin-app-layout/src/vaadin-app-layout.js';
+import '@vaadin/vaadin-app-layout/src/vaadin-drawer-toggle.js';
+import '@vaadin/vaadin-details/src/vaadin-details.js';
+import '@vaadin/vaadin-tabs/src/vaadin-tabs.js';
 
 class VaadinApp extends LitElement {
   static get styles() {

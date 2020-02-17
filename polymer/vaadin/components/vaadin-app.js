@@ -1,9 +1,9 @@
 import { PolymerElement, html } from '@polymer/polymer';
-import '@vaadin/vaadin-accordion/vaadin-accordion.js';
-import '@vaadin/vaadin-app-layout/vaadin-app-layout.js';
-import '@vaadin/vaadin-app-layout/vaadin-drawer-toggle.js';
-import '@vaadin/vaadin-details/vaadin-details.js';
-import '@vaadin/vaadin-tabs/vaadin-tabs.js';
+import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion.js';
+import '@vaadin/vaadin-app-layout/theme/material/vaadin-app-layout.js';
+import '@vaadin/vaadin-app-layout/theme/material/vaadin-drawer-toggle.js';
+import '@vaadin/vaadin-details/theme/material/vaadin-details.js';
+import '@vaadin/vaadin-tabs/theme/material/vaadin-tabs.js';
 
 class VaadinApp extends PolymerElement {
 

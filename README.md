@@ -25,3 +25,11 @@ To compare size when adding a new component, run:
 ```sh
 npm run size
 ```
+
+## Results
+
+The screenshots uploaded to the `results` folder are generated from 3 different branches:
+
+- `lumo`: Lumo components versions, generated from master branch
+- `material`: Material components versions, generated from [material](https://github.com/web-padawan/components-benchmarks/tree/material) branch
+- `src`: Unstyled components versions, generated from [src](https://github.com/web-padawan/components-benchmarks/tree/src) branch

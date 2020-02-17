@@ -16,11 +16,11 @@
   "size-limit": [
     {
       "path": "lit-element/vaadin/components/vaadin-app.js",
-      "limit": "50 KB"
+      "limit": "100 KB"
     },
     {
       "path": "polymer/vaadin/components/vaadin-app.js",
-      "limit": "50 KB"
+      "limit": "100 KB"
     }
   ]
 }

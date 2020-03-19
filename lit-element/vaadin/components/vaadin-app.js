@@ -3,6 +3,7 @@ import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion.js';
 import '@vaadin/vaadin-app-layout/theme/material/vaadin-app-layout.js';
 import '@vaadin/vaadin-app-layout/theme/material/vaadin-drawer-toggle.js';
 import '@vaadin/vaadin-details/theme/material/vaadin-details.js';
+import '@vaadin/vaadin-radio-button/theme/material/vaadin-radio-group.js';
 import '@vaadin/vaadin-tabs/theme/material/vaadin-tabs.js';
 
 class VaadinApp extends LitElement {
@@ -40,6 +41,12 @@ class VaadinApp extends LitElement {
             <div>Panel content</div>
           </vaadin-accordion-panel>
         </vaadin-accordion>
+
+        <vaadin-radio-group label="Radio group">
+          <vaadin-radio-button value="1">Option 1</vaadin-radio-button>
+          <vaadin-radio-button value="1">Option 2</vaadin-radio-button>
+          <vaadin-radio-button value="1">Option 3</vaadin-radio-button>
+        </vaadin-radio-group>
       </vaadin-app-layout>
     `;
   }

@@ -3,6 +3,7 @@ import '@vaadin/vaadin-accordion/vaadin-accordion.js';
 import '@vaadin/vaadin-app-layout/vaadin-app-layout.js';
 import '@vaadin/vaadin-app-layout/vaadin-drawer-toggle.js';
 import '@vaadin/vaadin-details/vaadin-details.js';
+import '@vaadin/vaadin-radio-button/vaadin-radio-group.js';
 import '@vaadin/vaadin-tabs/vaadin-tabs.js';
 
 class VaadinApp extends PolymerElement {
@@ -40,6 +41,12 @@ class VaadinApp extends PolymerElement {
           </vaadin-accordion-panel>
         </vaadin-accordion>
       </vaadin-app-layout>
+
+      <vaadin-radio-group label="Radio group">
+        <vaadin-radio-button value="1">Option 1</vaadin-radio-button>
+        <vaadin-radio-button value="1">Option 2</vaadin-radio-button>
+        <vaadin-radio-button value="1">Option 3</vaadin-radio-button>
+      </vaadin-radio-group>
     `;
   }
 }
